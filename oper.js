@@ -12,4 +12,19 @@ for (let i = 0; i < cities2.length; i++) {
         console.log(cities2[i]);
 }
     
+let fruit = 'apple';
 
+switch (fruit) {
+    case 'apple':
+        console.log('You selected an apple.');
+        break;
+    case 'banana':
+        console.log('You selected a banana.');
+        break;
+    case 'orange':
+        console.log('You selected an orange.');
+        break;
+    default:
+        console.log('Fruit not available.');
+}
+//
