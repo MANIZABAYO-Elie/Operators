@@ -12,3 +12,4 @@ for (let i = 0; i < cities2.length; i++) {
         console.log(cities2[i]);
 }
     
+
