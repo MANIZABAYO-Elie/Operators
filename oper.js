@@ -27,4 +27,46 @@ switch (fruit) {
     default:
         console.log('Fruit not available.');
 }
-//
+// switdh statement
+function getPlanet(id){
+let name;
+switch (id) {
+    case 1:
+      name = "MERCURY"  
+        break;
+      case 2:
+        name = "VENUS" 
+        break;
+        case 3:
+      name = "EARTH"
+      break;
+      case 4:
+      name = "JUPTER" 
+      break; 
+      case 5:
+        name = "NEPTUNE" 
+      break; 
+        case 6:
+      name = "URANUS"  
+      break;
+      case 7:
+      name = "STURN"  
+        
+}
+return name;
+}
+console.log(getPlanet(4));
+/// arrays operators
+
+const numbers = [34, -10, 0, 99, 3];
+function getSmallestNumber(numbers){
+    if(numbers.length===0){
+        return undefined;
+    }else{
+        return Math.min(...numbers)
+    }
+
+}
+
+let SmallestNumber = getSmallestNumber(numbers)
+console.log(SmallestNumber);
